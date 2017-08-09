@@ -1,0 +1,40 @@
+ main, section, article, aside, footer, header, nav, hgroup {
+  display:block;
+} 
+html{
+    font: 100% Verdana, Helvetica, sans-serif;
+}
+
+body {
+    font-size: .75rem;
+    background-color: rgb(25,52,65);
+    color: rgb(252,255,245);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: rgb(62,96,111);
+    width: 80%;
+}
+aside{
+    width: 80%;
+}
+
+#main-nav-logo {
+    height: 40px;
+}
+main {
+    width: 80%;
+}
+article {
+    width: 80%;
+}
+figure {
+    margin: 0;
+    width: 70%;
+}
+figure img {
+    max-width: 100%;
+}
